@@ -4,7 +4,7 @@ def adicionar_genero(livro, genero):
 
 
 print("Example:")
-print(criar_livro(['1984', 'George Orwell', 1949]))
+print(adicionar_genero({'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}, 'Ficção Científica'))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
