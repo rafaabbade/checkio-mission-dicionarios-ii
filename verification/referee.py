@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "adicionar_genero",
+            "python": "explorar_dicionario",
             "js": "countConsecutiveSummers"
         },
         cover_code={
