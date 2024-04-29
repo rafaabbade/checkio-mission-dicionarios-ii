@@ -1,18 +1,20 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Dado um dicionário de um livro e uma string representando o gênero, adicione esta nova informação ao dicionário e retorne-o atualizado.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Um dicionário contendo chaves 'titulo', 'autor' e 'ano'.
+Uma string representando o gênero do livro.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> O dicionário atualizado com a chave 'gênero'.
+
 </p>
 
 
@@ -28,7 +30,8 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    adicionar_genero({'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}, 'Ficção Científica') >> {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949, 'gênero': 'Ficção Científica'}
+adicionar_genero({'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}, 'Ficção Científica') >> {'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950, 'gênero': 'Ficção Científica'}
 </pre>
 {% endif %}
 </div>

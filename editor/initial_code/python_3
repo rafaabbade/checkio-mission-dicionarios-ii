@@ -1,1 +1,15 @@
-{{CODIGO INICIAL}}
+def adicionar_genero(livro, genero):
+    # Seu código aqui
+    return Nonev
+
+
+print("Example:")
+print(criar_livro(['1984', 'George Orwell', 1949]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert adicionar_genero({'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}, 'Ficção Científica') == {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949, 'gênero': 'Ficção Científica'}
+assert adicionar_genero({'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950}, 'Ficção Científica') =={'titulo': 'Eu, Robô', 'autor': 'Isaac Asimov', 'ano': 1950, 'gênero': 'Ficção Científica'}
+
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

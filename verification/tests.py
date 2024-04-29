@@ -10,6 +10,9 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+            {
+        "input": [{'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949}, 'Ficção Científica'],
+        "answer": {'titulo': '1984', 'autor': 'George Orwell', 'ano': 1949, 'gênero': 'Ficção Científica'}
+    }
     ]
 }
